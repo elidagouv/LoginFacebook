@@ -29,6 +29,14 @@ body {
     margin-right: 50px;
 }
 
+#msg {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+    display: block;
+    margin-left:20px;
+}
+
 #inputs {
     background-color:white;
     height: 367px;

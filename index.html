@@ -10,25 +10,28 @@
     <div id="body">
         <div id="conteudo">
             <div id="imagem">
-                <img src="img/logo-facebook.png" alt="">
+                <img src="img/logo-facebook.png" alt="Logo facebook">
             </div>
-            <h1>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h1>
+            <h1>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem <br> parte da sua vida.</h1>
         </div>
         <div id="inputs">
-            <form action="">
-                <input type="email, tel" placeholder="Email ou telefone">
-                <input type="password" placeholder="Senha">
-                <button type="submit" class="submit">Entrar</button>
+            <form action="" method="post">
+                <div id="msg"></div>
+                <input type="email, tel" placeholder="Email ou telefone" id="email_tel" onclick="change()">
+                <input type="password" placeholder="Senha" id="senha" onclick="change1()">
+                <button type="submit" class="submit" id="submit">Entrar</button>
             </form>
-            <a href="">
+            <a href="#">
                 <h3>Esqueceu a senha?</h3>
             </a>
             <div id="hr"></div>
-            <button class="criar_conta">Criar nova conta</button>
+            <button class="criar_conta" type="button">Criar nova conta</button>
         </div>
     </div>
-    <div id="criar"><a href="">
+    <div id="criar"><a href="#">
         <h3><strong>Criar uma Página</strong></a> para uma celebridade, uma marca ou uma <br> empresa</h3>
     </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
